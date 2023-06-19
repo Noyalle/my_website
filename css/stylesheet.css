@@ -1,0 +1,179 @@
+/*basic*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*main styling*/
+html,body {
+    font-family: Tinos, serif;
+    background: #fff;
+    line-height: 1.7em;
+    color: rgb(106, 72, 52);
+}
+
+/*links*/
+a {
+    color:rgb(106, 72, 52);
+    text-decoration: none;
+}
+
+.primary-img {
+    size: 50%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    width: 70%;
+    float: left;
+    padding: 20px 10px;
+}
+
+.header {
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*navbar*/
+.navbar {
+    background: #e5e1d8;
+    color: #6a4834;
+    overflow: auto;
+}
+
+.navbar .logo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar .sub-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    float: right;
+}
+
+.navbar ul li {
+    text-align: center;
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar li a:hover, .navbar li a.current {
+    background: #6a4834;
+    color: #e5e1d8;
+}
+
+/*home-info*/
+.home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #6a4834
+}
+
+.home-info .info-img {
+    float: left;
+    width: 50%;
+    width: 100%;
+}
+
+
+/*Contact Form*/
+
+.text-primary {
+    float: right;
+    margin: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    float: right;
+    text-align: right;
+}
+
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
+.contact-form .l-headding {
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #e5e1d8;
+    background: #6a4834;;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Tinos, serif;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.btn:hover {
+    background: #e5e1d8;
+    color: #6a4834;
+}
+
+/*social-media-icons*/
+.media-icons {
+    color: #6a4834;
+}
+
+.clr {
+    clear: both;
+}
+
+/*store*/
+.title-macrme {
+    padding: 20px;
+    text-align: center;
+    float: ;
+
+}
+
+/*Footer*/
+.main-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-footer .p {
+    margin-bottom: 20px;
+}
